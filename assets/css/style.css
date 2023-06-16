@@ -557,13 +557,13 @@ section {
 }
 
 .portfolio .portfolio-wrap {
-  transition: 0.3s;
+  /* transition: 0.3s; */
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+/* .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -574,7 +574,7 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
-}
+} */
 
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
