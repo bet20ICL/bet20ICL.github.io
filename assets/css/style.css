@@ -560,7 +560,7 @@ section {
   /* transition: 0.3s; */
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* .portfolio .port-wrap-custom::before {
@@ -572,7 +572,7 @@ section {
   top: 0;
   bottom: 0;
   transition: all ease-in-out 0.3s;
-  z-index: 2;
+  z-index: 1;
   opacity: 0;
 } */
 
@@ -605,13 +605,13 @@ section {
   border-left: 1px solid #37b3ed;
 }
 
-.portfolio .port-wrap-custom:hover::before {
+/* .portfolio .port-wrap-custom:hover::before {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   opacity: 1;
-}
+} */
 
 .portfolio .port-wrap-custom:hover .portfolio-links {
   opacity: 1;
